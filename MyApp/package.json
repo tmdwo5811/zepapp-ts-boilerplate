@@ -1,0 +1,19 @@
+{
+  "name": "MyApp",
+  "version": "0.7.1",
+  "scripts": {
+    "build": "npx zep-script build",
+    "archive": "zep-script archive",
+    "deploy": "zep-script publish",
+    "go": "npx zep-script build && npx zep-script archive"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.18.6",
+    "@babel/core": "^7.18.6",
+    "@babel/preset-typescript": "^7.18.6",
+    "@types/node": "^18.0.1",
+    "eslint": "^8.10.0",
+    "typescript": "^4.7.4",
+    "zep-script": "0.7.1"
+  }
+}
